@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebApp.Domain\WebApp.Domain.csproj" />
+    <ProjectReference Include="..\WebApp.Infrastructure.CrossCutting.Identity\WebApp.Infrastructure.CrossCutting.Identity.csproj" />
+  </ItemGroup>
+
 </Project>

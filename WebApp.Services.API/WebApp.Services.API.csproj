@@ -4,5 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebApp.Application\WebApp.Application.csproj" />
+    <ProjectReference Include="..\WebApp.Infrastructure.CrossCutting.Bus\WebApp.Infrastructure.CrossCutting.Bus.csproj" />
+    <ProjectReference Include="..\WebApp.Infrastructure.CrossCutting.Identity\WebApp.Infrastructure.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\WebApp.Infrastructure.CrossCutting.IoC\WebApp.Infrastructure.CrossCutting.IoC.csproj" />
+  </ItemGroup>
+
 
 </Project>

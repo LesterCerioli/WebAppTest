@@ -1,11 +1,11 @@
 {
-  "name": "webapp.web",
+  "name": "webapp.angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:ssr": "ng run WebApp.Web:server:dev",
+    "build:ssr": "ng run WebApp.Angular:server:dev",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -50,7 +50,7 @@
     "typescript": "3.5.3"
   },
   "optionalDependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^5.0.0",
     "protractor": "~5.4.2",
     "ts-node": "~8.4.1",
     "tslint": "~5.20.0"

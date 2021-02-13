@@ -1,6 +1,6 @@
 using System;
 
-namespace WebApp.Web
+namespace WebApp.Angular
 {
     public class WeatherForecast
     {

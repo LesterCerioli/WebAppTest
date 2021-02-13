@@ -5,41 +5,41 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{FBA5C231-EE1E-4DF8-9A4D-859016349374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Domain", "WebApp.Domain\WebApp.Domain.csproj", "{4BE069D1-B870-4584-8E90-1811C2ED0FDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Domain", "WebApp.Domain\WebApp.Domain.csproj", "{4BE069D1-B870-4584-8E90-1811C2ED0FDD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{BEF49741-C994-4FAC-98D1-68330216A65C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Shared", "WebApp.Shared\WebApp.Shared.csproj", "{1A17446B-E760-4E61-9747-230E6F03F2A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Shared", "WebApp.Shared\WebApp.Shared.csproj", "{1A17446B-E760-4E61-9747-230E6F03F2A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.DomainCore", "WebApp.DomainCore\WebApp.DomainCore.csproj", "{20BF227B-8D57-4A77-848A-10E57169D404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.DomainCore", "WebApp.DomainCore\WebApp.DomainCore.csproj", "{20BF227B-8D57-4A77-848A-10E57169D404}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4A382F7E-BD48-4732-9C43-D27186749EA8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{4EA56464-124C-40A8-93B7-4F30BB037858}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Infrastructure.Data", "WebApp.Infrastructure.Data\WebApp.Infrastructure.Data.csproj", "{8F737B87-43F8-4B97-80E1-6552558B8DEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Infrastructure.Data", "WebApp.Infrastructure.Data\WebApp.Infrastructure.Data.csproj", "{8F737B87-43F8-4B97-80E1-6552558B8DEC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{85260947-5A44-4FEB-9CB0-E7CF2D7452AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Infrastructure.CrossCutting.Bus", "WebApp.Infrastructure.CrossCutting.Bus\WebApp.Infrastructure.CrossCutting.Bus.csproj", "{DBA7E36B-5AEC-4D0D-BC2E-12FD0F18ABF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Infrastructure.CrossCutting.Bus", "WebApp.Infrastructure.CrossCutting.Bus\WebApp.Infrastructure.CrossCutting.Bus.csproj", "{DBA7E36B-5AEC-4D0D-BC2E-12FD0F18ABF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Infrastructure.CrossCutting.Identity", "WebApp.Infrastructure.CrossCutting.Identity\WebApp.Infrastructure.CrossCutting.Identity.csproj", "{2E537F1C-77E1-4129-A4A3-411644C2758E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Infrastructure.CrossCutting.Identity", "WebApp.Infrastructure.CrossCutting.Identity\WebApp.Infrastructure.CrossCutting.Identity.csproj", "{2E537F1C-77E1-4129-A4A3-411644C2758E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Infrastructure.CrossCutting.IoC", "WebApp.Infrastructure.CrossCutting.IoC\WebApp.Infrastructure.CrossCutting.IoC.csproj", "{607918CB-8244-4016-A768-741DCE795516}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Infrastructure.CrossCutting.IoC", "WebApp.Infrastructure.CrossCutting.IoC\WebApp.Infrastructure.CrossCutting.IoC.csproj", "{607918CB-8244-4016-A768-741DCE795516}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{D6FC08CF-0E94-4E04-8C84-C8D05322F563}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Application", "WebApp.Application\WebApp.Application.csproj", "{A248474A-696A-4502-A85F-4A5D0F3A3C03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Application", "WebApp.Application\WebApp.Application.csproj", "{A248474A-696A-4502-A85F-4A5D0F3A3C03}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9B1430C3-A6D3-4009-89BD-94E8717D9579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Services.API", "WebApp.Services.API\WebApp.Services.API.csproj", "{F9B3622F-B30F-4319-B878-6CF38029E306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Services.API", "WebApp.Services.API\WebApp.Services.API.csproj", "{F9B3622F-B30F-4319-B878-6CF38029E306}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{DA612AC7-BC12-4753-AACB-D310B68B4C0B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{588C02AE-57E0-44E5-B321-5B01A6718C03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Web", "WebApp.Web\WebApp.Web.csproj", "{26814FF4-A59E-4FCF-B6AB-1B65DF63D669}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Angular", "WebApp.Angular\WebApp.Angular.csproj", "{13276CF6-E11A-48D4-B03B-425BC681F93F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,18 +159,18 @@ Global
 		{F9B3622F-B30F-4319-B878-6CF38029E306}.Release|x64.Build.0 = Release|Any CPU
 		{F9B3622F-B30F-4319-B878-6CF38029E306}.Release|x86.ActiveCfg = Release|Any CPU
 		{F9B3622F-B30F-4319-B878-6CF38029E306}.Release|x86.Build.0 = Release|Any CPU
-		{26814FF4-A59E-4FCF-B6AB-1B65DF63D669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26814FF4-A59E-4FCF-B6AB-1B65DF63D669}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26814FF4-A59E-4FCF-B6AB-1B65DF63D669}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{26814FF4-A59E-4FCF-B6AB-1B65DF63D669}.Debug|x64.Build.0 = Debug|Any CPU
-		{26814FF4-A59E-4FCF-B6AB-1B65DF63D669}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{26814FF4-A59E-4FCF-B6AB-1B65DF63D669}.Debug|x86.Build.0 = Debug|Any CPU
-		{26814FF4-A59E-4FCF-B6AB-1B65DF63D669}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26814FF4-A59E-4FCF-B6AB-1B65DF63D669}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26814FF4-A59E-4FCF-B6AB-1B65DF63D669}.Release|x64.ActiveCfg = Release|Any CPU
-		{26814FF4-A59E-4FCF-B6AB-1B65DF63D669}.Release|x64.Build.0 = Release|Any CPU
-		{26814FF4-A59E-4FCF-B6AB-1B65DF63D669}.Release|x86.ActiveCfg = Release|Any CPU
-		{26814FF4-A59E-4FCF-B6AB-1B65DF63D669}.Release|x86.Build.0 = Release|Any CPU
+		{13276CF6-E11A-48D4-B03B-425BC681F93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13276CF6-E11A-48D4-B03B-425BC681F93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13276CF6-E11A-48D4-B03B-425BC681F93F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{13276CF6-E11A-48D4-B03B-425BC681F93F}.Debug|x64.Build.0 = Debug|Any CPU
+		{13276CF6-E11A-48D4-B03B-425BC681F93F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{13276CF6-E11A-48D4-B03B-425BC681F93F}.Debug|x86.Build.0 = Debug|Any CPU
+		{13276CF6-E11A-48D4-B03B-425BC681F93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13276CF6-E11A-48D4-B03B-425BC681F93F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13276CF6-E11A-48D4-B03B-425BC681F93F}.Release|x64.ActiveCfg = Release|Any CPU
+		{13276CF6-E11A-48D4-B03B-425BC681F93F}.Release|x64.Build.0 = Release|Any CPU
+		{13276CF6-E11A-48D4-B03B-425BC681F93F}.Release|x86.ActiveCfg = Release|Any CPU
+		{13276CF6-E11A-48D4-B03B-425BC681F93F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,7 +188,7 @@ Global
 		{A248474A-696A-4502-A85F-4A5D0F3A3C03} = {D6FC08CF-0E94-4E04-8C84-C8D05322F563}
 		{F9B3622F-B30F-4319-B878-6CF38029E306} = {9B1430C3-A6D3-4009-89BD-94E8717D9579}
 		{588C02AE-57E0-44E5-B321-5B01A6718C03} = {DA612AC7-BC12-4753-AACB-D310B68B4C0B}
-		{26814FF4-A59E-4FCF-B6AB-1B65DF63D669} = {588C02AE-57E0-44E5-B321-5B01A6718C03}
+		{13276CF6-E11A-48D4-B03B-425BC681F93F} = {588C02AE-57E0-44E5-B321-5B01A6718C03}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B6092C1-DBFF-4E6D-9510-124911F16A0D}
